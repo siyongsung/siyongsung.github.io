@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research and hands-on engineering projects.
 nav: true
 nav_order: 3
-display_categories: [research, hands-on]
+display_categories: [thesis, hands-on]
 horizontal: false
 ---
 
