@@ -16,6 +16,22 @@ A multirotor hovering near buildings or a landing pad gets hit by gusts that a f
 - **Validation:** MATLAB simulation → PX4 software-in-the-loop → 47 indoor flights against a fan wall at 6.4, 9.6, and 12.8 m/s.
 - **Result:** with preview, the peak position error at wind onset fell by 62–78 % (e.g. 28.6 → 6.4 cm at 12.8 m/s) and settling time by more than half, with steady-state error within 1 cm. The preview makes the vehicle tilt earlier, not more.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" class="rounded z-depth-1">
+            <iframe src="https://www.youtube.com/embed/oar44gbIEEU" title="without preview" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" class="rounded z-depth-1">
+            <iframe src="https://www.youtube.com/embed/Sa6qTCcZR_w" title="with preview" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<div class="caption">
+    Flight at 12.8 m/s without preview (left) and with preview (right).
+</div>
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/nmpc_sweep.png" title="wind sweep" class="img-fluid rounded z-depth-1" %}
