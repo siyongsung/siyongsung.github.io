@@ -4,7 +4,7 @@ title: Indoor Flight-Test Platform and Gust Experiments
 description: "PX4 + Jetson offboard stack flown against a WindShape fan wall under motion capture — 47 flights to measure how much preview error a wind-preview controller can tolerate."
 img: assets/img/ft_fan_wall.jpg
 importance: 3
-category: research
+category: thesis
 ---
 
 The experimental side of the wind-preview NMPC project: building a quadrotor that runs the controller onboard, generating a repeatable gust, and designing a flight campaign that isolates the effect of the preview.
