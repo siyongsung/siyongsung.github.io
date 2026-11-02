@@ -4,7 +4,7 @@ title: Wind-Preview NMPC for Gust Rejection
 description: "Nonlinear MPC that receives a 2 s preview of the incoming wind and tilts before the gust arrives — flight-tested on a quadrotor."
 img: assets/img/nmpc_sweep.png
 importance: 1
-category: thesis
+category: research
 ---
 
 **M.S. thesis, Rutgers University (advisor: Prof. Laurent Burlion).**
@@ -16,20 +16,15 @@ A multirotor hovering near buildings or a landing pad gets hit by gusts that a f
 - **Validation:** MATLAB simulation → PX4 software-in-the-loop → 47 indoor flights against a fan wall at 6.4, 9.6, and 12.8 m/s.
 - **Result:** with preview, the peak position error at wind onset fell by 62–78 % (e.g. 28.6 → 6.4 cm at 12.8 m/s) and settling time by more than half, with steady-state error within 1 cm. The preview makes the vehicle tilt earlier, not more.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
         <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" class="rounded z-depth-1">
-            <iframe src="https://www.youtube.com/embed/oar44gbIEEU" title="without preview" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;" class="rounded z-depth-1">
-            <iframe src="https://www.youtube.com/embed/Sa6qTCcZR_w" title="with preview" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/kmjE1RAwqes" title="flight without and with preview" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allowfullscreen></iframe>
         </div>
     </div>
 </div>
 <div class="caption">
-    Flight at 12.8 m/s without preview (left) and with preview (right).
+    Flight at 12.8 m/s without and with preview.
 </div>
 
 <div class="row justify-content-sm-center">
