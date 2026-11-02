@@ -2,33 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: M.S. Student, <a href='https://mae.rutgers.edu/'>Mechanical and Aerospace Engineering</a>, Rutgers University
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Department of Mechanical and Aerospace Engineering</p>
+    <p>Rutgers University–New Brunswick</p>
+    <p>New Jersey, USA</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an M.S. student in Mechanical and Aerospace Engineering at Rutgers University, advised by Prof. Laurent Burlion. My research focuses on model predictive control for multirotor UAVs, in particular on using wind preview information to reject gust disturbances. My thesis, *Wind Preview-Based Model Predictive Control for Gust Disturbance Rejection in Multirotor UAVs*, covers the controller design, simulation studies, and experimental flight tests.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before Rutgers, I earned a B.S. in Aviation Technologies (Avionics) from Southern Illinois University and an A.S. in Aviation Maintenance Technology from Orange Coast College. I also served as an avionics maintenance NCO in the Republic of Korea Air Force, working on F-16/KF-16 aircraft. I hold FAA Airframe and Powerplant (A&P), FCC GROL, and NCATT AET certifications.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Research interests:** model predictive control, UAV flight control, disturbance rejection, flight testing.
+
+I expect to graduate in January 2027.
