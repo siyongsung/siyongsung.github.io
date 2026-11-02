@@ -4,7 +4,7 @@ title: Quadrotor System Identification
 description: "Measuring the drag, attitude response, and hover thrust of a Holybro X500 from flight data, and checking the model against flights not used for identification."
 img: assets/img/sysid_vehicle.jpg
 importance: 2
-category: research
+category: thesis
 ---
 
 An NMPC is only as good as its model. Before flying the wind-preview controller, every parameter of its prediction model was measured on the actual vehicle rather than taken from a datasheet, and the model was checked against separate flights.
