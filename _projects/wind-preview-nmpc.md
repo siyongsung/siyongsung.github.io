@@ -4,7 +4,7 @@ title: Wind-Preview NMPC for Gust Rejection
 description: "Nonlinear MPC that receives a 2 s preview of the incoming wind and tilts before the gust arrives — flight-tested on a quadrotor."
 img: assets/img/nmpc_sweep.png
 importance: 1
-category: research
+category: thesis
 ---
 
 **M.S. thesis, Rutgers University (advisor: Prof. Laurent Burlion).**
