@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an M.S. student in Mechanical and Aerospace Engineering at Rutgers University, advised by Prof. Laurent Burlion. My research focuses on model predictive control for multirotor UAVs, in particular on using wind preview information to reject gust disturbances. My thesis, *Wind Preview-Based Model Predictive Control for Gust Disturbance Rejection in Multirotor UAVs*, covers the controller design, simulation studies, and experimental flight tests.
+I am an M.S. student in Mechanical and Aerospace Engineering at Rutgers University, advised by Prof. Laurent Burlion. My research focuses on model predictive control for multirotor UAVs, in particular on using wind preview information to reject gust disturbances. My thesis, *Wind Preview-Based Nonlinear Model Predictive Control for Gust Disturbance Rejection in Quadrotor UAVs*, covers the controller design, simulation studies, and experimental flight tests.
 
 Before Rutgers, I earned a B.S. in Aviation Technologies (Avionics) from Southern Illinois University and an A.S. in Aviation Maintenance Technology from Orange Coast College. I also served as an avionics maintenance NCO in the Republic of Korea Air Force, working on F-16/KF-16 aircraft. I hold FAA Airframe and Powerplant (A&P), FCC GROL, and NCATT AET certifications.
 
